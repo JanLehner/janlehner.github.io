@@ -1,0 +1,137 @@
+:root{
+    --border-gradient-top: linear-gradient(to top,  #1dc623, #19866ec3);
+    --border-gradient-bottom: linear-gradient(to bottom, #1dc623, #19866ec3);
+    --border-gradient-right: linear-gradient(to right, #1dc623, #19866ec3);
+}
+
+/*Animation*/
+.hiddenTimelineBlockLeft,
+.hiddenTimelineBlockRight{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+.hiddenTimelineBlockLeft{
+    transform: translateX(-50%);
+}
+
+.hiddenTimelineBlockRight{
+    transform: translateX(50%);
+}
+
+.show-left,
+.show-right{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/*-----------------------------------------------------*/
+
+.timelineAll{
+    width: 100%;
+}
+
+.timelineRow{
+    width: 100%;
+}
+
+.timelineLeft-Filled,
+.timelineLeft-Empty,
+.timelineRight-Filled,
+.timelineRight-Empty{
+    width: 50%;
+    height: 100%;
+}
+
+.timelineLeft-Filled,
+.timelineLeft-Empty{
+    border-right: 7px solid;
+    justify-content: right;
+}
+
+.timelineRight-Filled,
+.timelineRight-Empty{
+    border-left: 7px solid;
+    justify-content: left;
+}
+
+.timeLineBlock{
+    background: var(--border-gradient-right);
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.connectionline-right,
+.connectionline-left{
+    height: 14px;
+    width: 20%;
+    background-image: var(--border-gradient-right)
+}
+
+.timelineLeft-Filled,
+.timelineRight-Empty{
+    border-image-slice: 1;
+    border-image-source: var(--border-gradient-top);
+}
+
+.timelineLeft-Empty,
+.timelineRight-Filled{
+    border-image-slice: 1;
+    border-image-source: var(--border-gradient-bottom);
+}
+
+.dateTimeline,
+.titleTimeline,
+.textTimeline{
+    margin: 20px;
+}
+
+
+
+/*Design Mobile*/
+
+@media screen and (max-width: 1050px) {
+    .timelineLeft-Empty,
+    .timelineRight-Empty{
+        width: 0%;
+        border: 0;
+    }
+
+    .timelineRight-Filled{
+        border-left: 0;
+    }
+
+    .timelineLeft-Filled,
+    .timelineRight-Filled{
+        width: 75%;
+        border-right: 14px solid;
+        border-color: green;
+    }
+
+    .timeLineBlock{
+        width: 65%;
+    }
+
+    .connectionline-right{
+        width: 0;
+        height: 0;
+    }
+
+    .timelineRight-Filled{
+        justify-content: right;
+    }
+
+    .connectionline-left-long{
+        height: 14px;
+        width: 35%;
+        background-color: green;
+    }
+
+    .connectionline-left{
+        width: 15%;
+    }
+}
+

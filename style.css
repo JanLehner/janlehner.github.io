@@ -1,0 +1,109 @@
+:root{
+    --green-gradient-toRight: linear-gradient(to right, #358e1d,  #137042);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 80px;
+    grid-template-areas:
+        'header nav nav'
+        'main main main'
+        'footer footer footer';
+    height: 100%;
+}
+
+/*Flexboxes--------------------------------------------------------------*/
+
+header,
+main,
+nav,
+footer,
+.flexbox1,
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------------------------------------------*/
+
+header{
+    grid-area: header;
+    background-color: rgb(54, 50, 50);
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(54, 50, 50);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}  
+
+main{
+    grid-area: main;
+    background-color: rgb(86, 79, 79);
+    
+    flex-direction: column;
+    justify-content: start;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(54, 50, 50);
+}
+
+/*Header---------------------------------------------------------------*/
+
+#logoDiv{
+    height: 100%;
+    width: 25%;
+
+}
+
+#logo{
+    height: 150px;
+    width: 250px;
+}
+
+#navDiv{
+    height: 100%;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+/*---------------------------------------------------------------------*/
+
+@media screen and (max-width: 1050px) {
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px auto 80px;
+        grid-template-areas:
+            'header'
+            'nav'
+            'main'
+            'footer';
+        height: 100%;
+    }
+}
