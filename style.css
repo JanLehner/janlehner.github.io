@@ -1,8 +1,8 @@
-:root{
-    --green-gradient-toRight: linear-gradient(to right, #358e1d,  #137042);
+:root {
+    --green-gradient-toRight: linear-gradient(to right, #358e1d, #137042);
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -10,12 +10,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-#container{
+#container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 150px auto 80px;
@@ -33,13 +33,13 @@ main,
 nav,
 footer,
 .flexbox1,
-a{
+a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flexbox2{
+.flexbox2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,45 +48,49 @@ a{
 
 /*---------------------------------------------------------------------*/
 
-header{
+header {
     grid-area: header;
     background-color: rgb(54, 50, 50);
 }
 
-nav{
+nav {
     grid-area: nav;
     background-color: rgb(54, 50, 50);
     justify-content: space-evenly;
     flex-wrap: wrap;
-}  
+}
 
-main{
+main {
     grid-area: main;
     background-color: rgb(86, 79, 79);
-    
+
     flex-direction: column;
     justify-content: start;
 }
 
-footer{
+footer {
     grid-area: footer;
     background-color: rgb(54, 50, 50);
 }
 
 /*Header---------------------------------------------------------------*/
+#logo-container{
+    height: 100%;
+    width: 100%;
+}
 
-#logoDiv{
+#logoDiv {
     height: 100%;
     width: 25%;
 
 }
 
-#logo{
+#logo {
     height: 150px;
     width: 250px;
 }
 
-#navDiv{
+#navDiv {
     height: 100%;
     width: 75%;
     justify-content: space-evenly;
@@ -95,7 +99,7 @@ footer{
 /*---------------------------------------------------------------------*/
 
 @media screen and (max-width: 1050px) {
-    #container{
+    #container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 150px 150px auto 80px;
@@ -105,5 +109,14 @@ footer{
             'main'
             'footer';
         height: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #skill-btn,
+    #project-btn,
+    #portfolio-btn,
+    #cv-btn {
+        font-size: 10px;
     }
 }

@@ -1,7 +1,3 @@
-/* eslint-disable dot-notation */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-restricted-globals */
-/* eslint-disable import/prefer-default-export */
 export class Router {
   constructor(routes) {
     this.routes = routes;

@@ -18,5 +18,6 @@ let router = new Router(routes);
 router.urlResolve();
 
 function renderNotFound(){
-  main.innerHTML = `Not Found`;
+  main.innerHTML = `<h1>404 | Not found</h1>
+  <a class="big-btn" href="#">Return to home</a>`;
 }
