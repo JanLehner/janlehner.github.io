@@ -33,7 +33,8 @@ main,
 nav,
 footer,
 .flexbox1,
-a {
+a,
+.skillContainerIcons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,14 +110,5 @@ footer {
             'main'
             'footer';
         height: 100%;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    #skill-btn,
-    #project-btn,
-    #portfolio-btn,
-    #cv-btn {
-        font-size: 10px;
     }
 }

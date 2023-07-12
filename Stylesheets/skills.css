@@ -1,0 +1,42 @@
+.skillBlockType{
+    width: 100%;
+    height: auto;
+}
+
+.skillBockTitle{
+    font-size: 25px;
+    margin-left: 3%;
+}
+
+.skillContainerIcons{
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.iconSkillsHolder{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.iconSkills{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .skillBockTitle{
+        font-size: 19px;
+    }
+    .skillContainerIcons{
+        justify-content: center;
+    }
+    .iconSkillsHolder{
+        height: 80px;
+        width: 80px;
+    }
+}

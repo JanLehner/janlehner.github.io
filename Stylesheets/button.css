@@ -65,3 +65,12 @@ a{
     opacity: 1;
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 550px) {
+    #skill-btn,
+    #project-btn,
+    #portfolio-btn,
+    #cv-btn {
+        font-size: 10px;
+    }
+}
