@@ -1,0 +1,103 @@
+:root {
+    --dark-section: #111D27;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 80px;
+    grid-template-areas:
+        'header nav nav'
+        'main main main'
+        'footer footer footer';
+    height: 100%;
+}
+
+/*Flexboxes--------------------------------------------------------------*/
+
+header,
+main,
+nav,
+footer,
+.flexbox,
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------------------------------------------*/
+
+header {
+    grid-area: header;
+    background-color: var(--dark-section);
+}
+
+nav {
+    grid-area: nav;
+    background-color: var(--dark-section);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main {
+    grid-area: main;
+    background-image: url(../Images/Background_Main.png); 
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--dark-section);
+}
+
+/*Header---------------------------------------------------------------*/
+#logo-container{
+    height: 100%;
+    width: 100%;
+}
+
+#logoDiv {
+    height: 100%;
+    width: 25%;
+    padding-left: 30px;
+}
+
+#logo {
+    height: 150px;
+    width: 250px;
+}
+
+#navDiv {
+    height: 100%;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+/*---------------------------------------------------------------------*/
+
+@media screen and (max-width: 1050px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px auto 80px;
+        grid-template-areas:
+            'header'
+            'nav'
+            'main'
+            'footer';
+        height: 100%;
+    }
+}
