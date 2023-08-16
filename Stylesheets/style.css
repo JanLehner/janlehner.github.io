@@ -1,7 +1,7 @@
 :root {
     --dark-section: #111D27;
     --nav-btn-light: #326598;
-    --nav-btn-strong:#112726;
+    --nav-btn-strong: #112726;
     --nav-btn-font: #a5c5e6;
 }
 
@@ -58,7 +58,7 @@ nav {
 
 main {
     grid-area: main;
-    background-image: url(../Images/Background_Main.png); 
+    background-image: url(../Images/Background_Main.png);
 }
 
 footer {
@@ -67,7 +67,7 @@ footer {
 }
 
 /*Header---------------------------------------------------------------*/
-#logo-container{
+#logo-container {
     height: 100%;
     width: 100%;
 }
@@ -91,23 +91,91 @@ footer {
 
 /*Nav-------------------------------------------------------------------*/
 
-.nav-btn{
+.nav-btn {
     height: 50px;
     margin: 15px;
     margin-bottom: 25px;
     width: 120px;
     font-size: 16px;
     color: var(--nav-btn-font);
-    /*font-family: Richtige Schrift suchen*/ 
+    /*font-family: Richtige Schrift suchen*/
     border: solid #404C5D 1px;
     border-radius: 5px;
-    background: var(--dark-section); /*Farbe noch auswählen*/
+    background: var(--dark-section);
+    /*Farbe noch auswählen*/
     box-shadow: 0px 0px 20px 5px var(--nav-btn-light);
     transition: 0.5s;
+    --btn-animation-duration: 1.5s;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
     box-shadow: 0px 0px 15px 1px var(--nav-btn-light);
+}
+
+.nav-btn:active {
+    box-shadow: 0px 0px 20px 10px var(--nav-btn-light);
+}
+
+#cv-btn::after{
+    content: "Lebenslauf";
+}
+
+#cv-btn:hover::after{
+    animation: loading linear both 1.5s;
+    color:rgb(50, 203, 50);
+}
+
+
+
+@keyframes loading {
+    0% {
+        content: "¿/*#¦-±}$°";
+    }
+
+    10% {
+        content: "L@}-?/*#¦ç";
+    }
+
+    20% {
+        content: "Le?{,^!4@%";
+    }
+
+    30% {
+        content: "Leb\;1}]f[4";
+    }
+
+    40% {
+        content: "Lebe'1_0<}";
+    }
+
+    50% {
+        content: "Leben=.,^!";
+    }
+
+    60% {
+        content: "Lebens@}-?";
+        right: 0;
+    }
+
+    70% {
+        content: "Lebensl#{+";
+        right: 0;
+    }
+
+    80% {
+        content: "Lebensla@/";
+        right: 0;
+    }
+
+    90% {
+        content: "Lebenslau*";
+        right: 0;
+    }
+
+    100% {
+        content: "Lebenslauf";
+        right: 0;
+    }
 }
 
 /*----------------------------------------------------------------------*/
