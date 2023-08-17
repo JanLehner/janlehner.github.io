@@ -121,13 +121,11 @@ footer {
 }
 
 #cv-btn:hover::after{
-    animation: loading linear both 1.5s;
+    animation: loadingCV linear both 1.5s;
     color:rgb(50, 203, 50);
 }
 
-
-
-@keyframes loading {
+@keyframes loadingCV {
     0% {
         content: "¿/*#¦-±}$°";
     }
@@ -164,17 +162,232 @@ footer {
 
     80% {
         content: "Lebensla@/";
-        right: 0;
     }
 
     90% {
         content: "Lebenslau*";
-        right: 0;
     }
 
     100% {
         content: "Lebenslauf";
+    }
+}
+
+#portfolio-btn::after{
+    content: "Portfolios";
+}
+
+#portfolio-btn:hover::after{
+    animation: loadingPortfolios linear both 1.5s;
+    color:rgb(50, 203, 50);
+}
+
+
+@keyframes loadingPortfolios {
+    0% {
+        content: "¿/*#¦-±}$°";
+    }
+
+    10% {
+        content: "P@}-?/*#¦ç";
+    }
+
+    20% {
+        content: "Po?{,^!4@%";
+    }
+
+    30% {
+        content: "Por\;1}]f[4";
+    }
+
+    40% {
+        content: "Port'1_0<}";
+    }
+
+    50% {
+        content: "Portf=.,^!";
+    }
+
+    60% {
+        content: "Portfo@}-?";
+    }
+
+    70% {
+        content: "Portfol#{+";
+    }
+
+    80% {
+        content: "Portfoli@/";
+    }
+
+    90% {
+        content: "Portfolio*";
+    }
+
+    100% {
+        content: "Portfolios";
+    }
+}
+
+#project-btn::after{
+    content: "Projekte";
+}
+
+#project-btn:hover::after{
+    animation: loadingProjects linear both 1.5s;
+    color:rgb(50, 203, 50);
+}
+
+
+@keyframes loadingProjects {
+    0% {
+        content: "¿/*#¦-±}";
+    }
+
+    12.5% {
+        content: "P@}-?/*#";
+    }
+
+    25% {
+        content: "Pr?{,^!4";
+    }
+
+    37.5% {
+        content: "Pro1}]f4";
+    }
+
+    50% {
+        content: "Proj'1_0";
+    }
+
+    62.5% {
+        content: "Proje=^!";
+    }
+
+    75% {
+        content: "Projek@-";
+    }
+
+    87.5% {
+        content: "Projekt#";
+    }
+
+    100% {
+        content: "Projekte";
+    }
+}
+
+#cv-btn::after{
+    content: "Lebenslauf";
+}
+
+#cv-btn:hover::after{
+    animation: loadingCV linear both 1.5s;
+    color:rgb(50, 203, 50);
+}
+
+@keyframes loadingCV {
+    0% {
+        content: "¿/*#¦-±}$°";
+    }
+
+    10% {
+        content: "L@}-?/*#¦ç";
+    }
+
+    20% {
+        content: "Le?{,^!4@%";
+    }
+
+    30% {
+        content: "Leb\;1}]f[4";
+    }
+
+    40% {
+        content: "Lebe'1_0<}";
+    }
+
+    50% {
+        content: "Leben=.,^!";
+    }
+
+    60% {
+        content: "Lebens@}-?";
         right: 0;
+    }
+
+    70% {
+        content: "Lebensl#{+";
+        right: 0;
+    }
+
+    80% {
+        content: "Lebensla@/";
+    }
+
+    90% {
+        content: "Lebenslau*";
+    }
+
+    100% {
+        content: "Lebenslauf";
+    }
+}
+
+#skill-btn::after{
+    content: "Fähigkeiten";
+}
+
+#skill-btn:hover::after{
+    animation: loadingCV linear both 1.5s;
+    color:rgb(50, 203, 50);
+}
+
+@keyframes loadingCV {
+    0% {
+        content: "¿/*#¦-±}$°";
+    }
+
+    10% {
+        content: "Fäh@}-?/*#¦ç";
+    }
+
+    20% {
+        content: "Fähi?{,^!4@%";
+    }
+
+    30% {
+        content: "Fähig\;1}]f[4";
+    }
+
+    40% {
+        content: "Fähigk'1_0<}";
+    }
+
+    50% {
+        content: "Fähigke=.,^!";
+    }
+
+    60% {
+        content: "Fähigkei@}-?";
+        right: 0;
+    }
+
+    70% {
+        content: "Fähigkeit#{+";
+        right: 0;
+    }
+
+    80% {
+        content: "Fähigkeit@/";
+    }
+
+    90% {
+        content: "Fähigkeite*";
+    }
+
+    100% {
+        content: "Fähigkeiten";
     }
 }
 
