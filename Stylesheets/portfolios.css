@@ -1,0 +1,66 @@
+main {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 520px;
+    height: 260px;
+    margin: 20px;
+}
+
+.content {
+    position: relative;
+    transition: 2.25s;
+    background: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 90%;
+    transform-style: preserve-3d;
+}
+
+.card:hover .content {
+    transform: rotateY(0.5turn);
+}
+
+.front,
+.back {
+    position: absolute;
+    inset: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.title {
+    transform: translateZ(2.5em);
+    font-size: 2rem;
+}
+
+.back {
+    transform: rotateY(0.5turn);
+    background-color: red;
+}
+
+.description {
+    transform: translateZ(3rem);
+}
+
+.content,
+.back{
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width: 1250px) {
+    .card {
+        width: 420px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .card {
+        width: 260px;
+        height: 190px;
+    }
+}
