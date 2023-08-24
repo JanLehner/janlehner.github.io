@@ -43,7 +43,7 @@ main {
 }
 
 .description {
-    transform: translateZ(3rem);
+    transform: translateZ(5em);
 }
 
 .content,
