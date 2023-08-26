@@ -3,6 +3,7 @@
     --nav-btn-light: #326598;
     --nav-btn-strong: #112726;
     --nav-btn-font: #a5c5e6;
+    --nav-btn-font-selected: rgb(50, 203, 50);
 }
 
 body {
@@ -117,13 +118,17 @@ footer {
     box-shadow: 0px 0px 20px 10px var(--nav-btn-light);
 }
 
+.nav-btn-selected{
+    color: var(--nav-btn-font-selected);
+}
+
 #cv-btn::after{
     content: "Lebenslauf";
 }
 
 #cv-btn:hover::after{
     animation: loadingCV linear both 1.5s;
-    color:rgb(50, 203, 50);
+    color:var(--nav-btn-font-selected);
 }
 
 @keyframes loadingCV {
@@ -180,7 +185,7 @@ footer {
 
 #portfolio-btn:hover::after{
     animation: loadingPortfolios linear both 1.5s;
-    color:rgb(50, 203, 50);
+    color:var(--nav-btn-font-selected);
 }
 
 
@@ -236,7 +241,7 @@ footer {
 
 #project-btn:hover::after{
     animation: loadingProjects linear both 1.5s;
-    color:rgb(50, 203, 50);
+    color:var(--nav-btn-font-selected);
 }
 
 
@@ -284,7 +289,7 @@ footer {
 
 #skill-btn:hover::after{
     animation: loadingSkills linear both 1.5s;
-    color:rgb(50, 203, 50);
+    color:var(--nav-btn-font-selected);
 }
 
 @keyframes loadingSkills {

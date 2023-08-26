@@ -3,6 +3,7 @@ import { loadCV } from './Javascripts/cv/loadCV.js';
 import { loadProjects } from './Javascripts/projects/loadProjects.js'
 import { loadSkills } from './Javascripts/skills/loadSkills.js';
 import { loadPortfolios } from './Javascripts/portfolios/loadPortfolios.js';
+import { cvClicked, portfolioClicked, projectClicked, skillClicked } from './Javascripts/navBtnSelector.js';
 
 const main = document.querySelector('main');
 

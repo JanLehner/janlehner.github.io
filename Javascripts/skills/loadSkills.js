@@ -1,8 +1,11 @@
+import { skillClicked } from "../navBtnSelector.js";
+
 const main = document.querySelector('main');
 const scriptHolder = document.getElementById("scriptHolder");
 import { skillFunc } from './skills.js';
 
 export function loadSkills() {
+    skillClicked();
     main.innerHTML = `<div class="block-div" id="toolsBlock-div">
     <a id="toolsBlock-btn-1" class="toolsBlock-btn block-btn btn-border-top-left"></a>
     <a id="toolsBlock-btn-2" class="toolsBlock-btn block-btn"></a>

@@ -1,6 +1,9 @@
+import { portfolioClicked } from "../navBtnSelector.js";
+
 const main = document.querySelector('main');
 
 export function loadPortfolios() {
+    portfolioClicked();
     main.innerHTML = `<a class="card">
     <div class="content">
         <div class="front flexbox">
