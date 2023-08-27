@@ -8,7 +8,7 @@ export function skillFunc() {
     var langBlock_description = document.getElementById("langBlock-description");
 
     toolsBlock.addEventListener("mouseover", function () {
-        toolsBlock_description.classList.add("hidden");
+        toolsBlock_description.classList.add("hiddenSkill");
         for (let btn of toolsBlock_all_btn) {
             btn.classList.add("hoverEffect");
         }
@@ -17,11 +17,11 @@ export function skillFunc() {
         for (let btn of toolsBlock_all_btn) {
             btn.classList.remove("hoverEffect");
         }
-        toolsBlock_description.classList.remove("hidden");
+        toolsBlock_description.classList.remove("hiddenSkill");
     });
 
     langBlock.addEventListener("mouseover", function () {
-        langBlock_description.classList.add("hidden");
+        langBlock_description.classList.add("hiddenSkill");
         for (let btn of langBlock_all_btn) {
             btn.classList.add("hoverEffect");
         }
@@ -30,6 +30,6 @@ export function skillFunc() {
         for (let btn of langBlock_all_btn) {
             btn.classList.remove("hoverEffect");
         }
-        langBlock_description.classList.remove("hidden");
+        langBlock_description.classList.remove("hiddenSkill");
     });
 }
