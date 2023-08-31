@@ -1,8 +1,10 @@
 import { portfolioClicked } from "../navBtnSelector.js";
 
 const main = document.querySelector('main');
+const styleDiv = document.getElementById('stylesheetContainer');
 
 export function loadPortfolios() {
+    styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/portfolios.css">`;
     portfolioClicked();
     main.innerHTML = `<a class="card">
     <div class="content">

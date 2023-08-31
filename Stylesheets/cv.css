@@ -9,6 +9,7 @@
 main {
     flex-direction: column;
     justify-content: start;
+    overflow:visible;
 }
 
 /*------------------------------------*/

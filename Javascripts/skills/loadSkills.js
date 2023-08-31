@@ -1,10 +1,14 @@
 import { skillClicked } from "../navBtnSelector.js";
 
 const main = document.querySelector('main');
-const scriptHolder = document.getElementById("scriptHolder");
+const styleDiv = document.getElementById('stylesheetContainer');
+
 import { skillFunc } from './skills.js';
 
 export function loadSkills() {
+    styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/skills.css">
+    <link rel="stylesheet" href="./Stylesheets/cv.css">
+    <link rel="stylesheet" href="./Stylesheets/portfolios.css">`;
     skillClicked();
     main.innerHTML = `<div class="block-div" id="toolsBlock-div">
     <a id="toolsBlock-btn-1" class="toolsBlock-btn block-btn btn-border-top-left"></a>
@@ -33,6 +37,5 @@ export function loadSkills() {
 </div>`;
     do {
         skillFunc();
-        console.log("Test3");
     } while (document.getElementsByClassName("block-btn") == null)
 }

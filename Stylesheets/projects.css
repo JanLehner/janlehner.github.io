@@ -1,0 +1,227 @@
+main{
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.svg {
+    width: 90px;
+    border-radius: 1.7em;
+    box-shadow: 0px 0px 37px 15px #326598;
+}
+
+.projects-div-arrow-right,
+.projects-div-arrow-left{
+    width: 15%;
+    height: 100%;
+}
+
+.projects-container{
+    width: 70%;
+    height: 80%;
+    position: relative;
+}
+
+.projects-card{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -2%;
+    margin: 20px;
+    border: 5px solid #a5c5e6;
+    border-radius: 0.5em;
+}
+
+.card-left{
+    transform: translateX(-200%); 
+    transition: all 1s;
+}
+
+.card-center{
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.card-right{
+    transform: translateX(200%); 
+    transition: all 1s;
+}
+
+.card-invisible{
+    opacity: 0;
+    z-index: -5;
+} 
+
+.arrowBtn{
+    z-index: 2;
+}
+
+/*-------------------------------------------*/
+
+.projects-card-middle-div-right,
+.projects-card-middle-div-left{
+    height: 100%;
+    width: 50%;
+}
+
+.projects-card-inner-div-right,
+.projects-card-inner-div-left{
+    height: 90%;
+    width: 90%;
+    border-radius: 0.5em;
+}
+
+.projects-card-inner-div-left{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-card-inner-div-right{
+    margin: 20px;
+}
+
+.projects-card-title,
+.projects-card-text{
+    margin: 20px;
+    margin-top: 0;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-text{
+    margin-bottom: 40px;
+}
+
+.projects-card-title{
+    text-align: center;
+}
+
+.btn-projects-card {
+    height: 50px;
+    margin: 15px;
+    margin-bottom: 25px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+/*-------------------------------------------------------------*/
+
+#img_card_donut{
+    background: url(../Images/Carousel_Donut.png);
+    background-size:cover;
+}
+
+/*-------------------------------------------------------------*/
+
+@media screen and (max-width: 1650px) {    
+    .projects-card-inner-div-right{
+        width: 70%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 1400px) {    
+    .projects-card-inner-div-right{
+        height: 50%;
+    }
+
+    .arrowBtn{
+        width: 30%;
+        height: 30%;
+        border-radius: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {    
+    .projects-card-inner-div-right{
+        height: 40%;
+    }
+
+    .arrowBtn{
+        border-radius: 1.2em;
+    }
+}
+
+@media screen and (max-width: 925px) {    
+    main{
+        height: 100vh;
+    }
+
+    .projects-card{
+        flex-direction: column;
+        left: -4%;
+    }
+
+    .projects-card-middle-div-right,
+    .projects-card-middle-div-left{
+        width: 100%;
+        height: 100%;
+    }
+
+    .projects-card-title{
+        margin-top: 20px;
+    }
+
+    .projects-card-inner-div-right{
+        width: 50%;
+        height: 70%;
+    }
+
+    .projects-card-title,
+    .projects-card-text{
+        width: 300px;
+    }
+
+    .btn-projects-card{
+        height: 40px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 750px) {    
+    .projects-card{
+        border: none;
+    }
+    
+    .projects-card-text,
+    .projects-card-title{
+        width: 250px;
+    }
+
+    .projects-card-inner-div-right{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {    
+    .projects-card-inner-div-right{
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {    
+    .projects-card-inner-div-right{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {    
+    .projects-card-inner-div-right{
+        height: 200px;
+        width: 200px;
+    }
+
+    .projects-card{
+        left: -7.5%;
+    }
+}
+
+
+
+

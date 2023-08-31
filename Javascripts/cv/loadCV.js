@@ -1,8 +1,10 @@
 import { cvClicked } from "../navBtnSelector.js";
 
 const main = document.querySelector('main');
+const styleDiv = document.getElementById('stylesheetContainer');
 
 export function loadCV() {
+    styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/cv.css">`;
     cvClicked();
     main.innerHTML = `<div class="aboutMe-div flexbox">
     <p class="aboutMe-titel agency">Jan Lehner</p>
