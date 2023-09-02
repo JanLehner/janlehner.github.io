@@ -3,7 +3,7 @@
     --nav-btn-light: #326598;
     --nav-btn-strong: #112726;
     --nav-btn-font: #a5c5e6;
-    --nav-btn-font-selected: rgb(50, 203, 50);
+    --nav-btn-font-selected: #38958C;
 }
 
 body {
@@ -12,6 +12,14 @@ body {
     height: 100vh;
     color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.agency {
+    font-family: 'Agency FB', sans-serif;
+}
+
+.twCen {
+    font-family: 'Tw Cen MT Std', sans-serif;
 }
 
 a {

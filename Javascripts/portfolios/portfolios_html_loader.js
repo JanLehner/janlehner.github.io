@@ -5,11 +5,11 @@ export function portfoliosHtmlLoad(){
     styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/portfolios.css">`;
     main.innerHTML = `<a class="card">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -17,11 +17,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -29,11 +29,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -41,11 +41,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -53,11 +53,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -65,11 +65,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -77,11 +77,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -89,11 +89,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -101,11 +101,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -113,11 +113,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -125,11 +125,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>
@@ -137,11 +137,11 @@ export function portfoliosHtmlLoad(){
 </a>
 <a class="card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
     <div class="content">
-        <div class="front flexbox">
-            <h3 class="title">Hey</h3>
+        <div class="front-card-portfolio flexbox">
+            <h3 class="agency title-card-portfolio">Hey</h3>
         </div>
-        <div class="back flexbox">
-            <p class="description">
+        <div class="back-card-portfolio flexbox">
+            <p class="twCen description-card-portfolio">
                 This is a test
             </p>
         </div>

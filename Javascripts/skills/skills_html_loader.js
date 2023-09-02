@@ -2,9 +2,7 @@ const main = document.querySelector('main');
 const styleDiv = document.getElementById('stylesheetContainer');
 
 export function skillsHtmlLoad(){
-    styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/skills.css">
-    <link rel="stylesheet" href="./Stylesheets/cv.css">
-    <link rel="stylesheet" href="./Stylesheets/portfolios.css">`;
+    styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/skills.css">`;
     main.innerHTML = `<div class="block-div" id="toolsBlock-div">
     <a id="toolsBlock-btn-1" class="toolsBlock-btn block-btn btn-border-top-left"></a>
     <a id="toolsBlock-btn-2" class="toolsBlock-btn block-btn"></a>
@@ -15,7 +13,7 @@ export function skillsHtmlLoad(){
     <a id="toolsBlock-btn-7" class="toolsBlock-btn block-btn btn-border-bottom-left"></a>
     <a id="toolsBlock-btn-8" class="toolsBlock-btn block-btn"></a>
     <a id="toolsBlock-btn-9" class="toolsBlock-btn block-btn btn-border-bottom-right"></a>
-    <p class="blockDescription" id="toolsBlock-description">Sprachen</p>
+    <p class="agency blockDescription" id="toolsBlock-description">Sprachen</p>
 </div>
 
 <div class="block-div" id="langBlock-div">
@@ -28,6 +26,6 @@ export function skillsHtmlLoad(){
     <a id="langBlock-btn-7" class="langBlock-btn block-btn btn-border-bottom-left"></a>
     <a id="langBlock-btn-8" class="langBlock-btn block-btn"></a>
     <a id="langBlock-btn-9" class="langBlock-btn block-btn btn-border-bottom-right"></a>
-    <p class="blockDescription" id="langBlock-description">Tools</p>
+    <p class="agency blockDescription" id="langBlock-description">Tools</p>
 </div>`;
 }

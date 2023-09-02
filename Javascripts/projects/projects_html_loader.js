@@ -39,8 +39,8 @@ export function projectsHtmlLoad(){
                     Porro, ullam adipisci.
                 </p>
                 <div class="flexbox projects-card-inner-content-bottom">
-                    <a class="btn-projects-card nav-btn" href="#">Test</a>
-                    <a class="btn-projects-card nav-btn" href="#">Test</a>
+                    <a class="agency btn-projects-card" href="#">Test</a>
+                    <a class="agency btn-projects-card" href="#">Test</a>
                 </div>
             </div>
         </div>

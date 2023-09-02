@@ -1,9 +1,6 @@
-.agency {
-    font-family: 'Agency FB', sans-serif;
-}
-
-.twCen {
-    font-family: 'Tw Cen MT Std', sans-serif;
+:root{
+    --light-blue: #a5c5e6;
+    --strong-blue: #326598;
 }
 
 main {
@@ -13,6 +10,7 @@ main {
 }
 
 /*------------------------------------*/
+
 .aboutMe-div,
 .aboutMe-titel,
 .aboutMe-text {
@@ -48,6 +46,7 @@ main {
 }
 
 /*------------------------------------*/
+
 #timelineContainer {
     flex-direction: column;
     justify-content: start;
@@ -79,10 +78,8 @@ main {
     width: 6.45px;
     height: 120%;
     border-radius: 0.1em;
-    background: #a5c5e6;
-    box-shadow: 0px 0px 37px 15px #326598;
-    /* background: linear-gradient(#0F1F4D 25%, #19ABA9 75%, #a5c5e6 100%);
-    box-shadow: 0px 0px 15px 1px #0F1F4D, 0px 0px 15px 1px #19ABA9; */
+    background: var(--light-blue);
+    box-shadow: 0px 0px 37px 15px var(--strong-blue);
 }
 
 .content-block-left,
@@ -127,7 +124,7 @@ main {
 .svg {
     width: 90px;
     border-radius: 1.7em;
-    box-shadow: 0px 0px 37px 15px #326598;
+    box-shadow: 0px 0px 37px 15px var(--strong-blue);
 }
 
 .hiddenLine {
@@ -136,7 +133,6 @@ main {
 }
 
 .showLine {
- 
    height: 120%;
 }
 
@@ -144,14 +140,14 @@ main {
     opacity: 0;
     transform: translateX(100%);
     filter: blur(2px);
-    transition: all 3.5s;
+    transition: ease-out 2.5s;
 }
 
 .hiddenFadeFL{
     opacity: 0;
     transform: translateX(-100%);
     filter: blur(2px);
-    transition: all 3.5s;
+    transition: ease-out 2.5s;
 }
 
 .showFade{
@@ -223,5 +219,4 @@ main {
     .timelineText {
         font-size: 13px;
     }
-
 }
