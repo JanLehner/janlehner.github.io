@@ -1,3 +1,9 @@
+:root{
+    --light-blue: #a5c5e6;
+    --strong-blue: #326598;
+    --btn-font-selected: #38958C;
+}
+
 main{
     overflow: hidden;
     justify-content: space-between;
@@ -7,7 +13,7 @@ main{
 .svg {
     width: 90px;
     border-radius: 1.7em;
-    box-shadow: 0px 0px 37px 15px #326598;
+    box-shadow: 0px 0px 37px 15px var(--strong-blue);
 }
 
 .projects-div-arrow-right,
@@ -28,7 +34,7 @@ main{
     position: absolute;
     left: -2%;
     margin: 20px;
-    border: 5px solid #a5c5e6;
+    border: 5px solid var(--light-blue);
     border-radius: 0.5em;
 }
 
@@ -103,14 +109,27 @@ main{
     margin-bottom: 25px;
     width: 120px;
     font-size: 16px;
+    color: var(--light-blue);
+    border-radius: 5px;
+    background: var(--strong-blue);
+    box-shadow: 0px 0px 15px 3px var(--strong-blue);
+    transition: 0.5s;
+    --btn-animation-duration: 1.5s;
     text-align: center;
-    position: relative;
+}
+
+.btn-projects-card:hover {
+    box-shadow: 0px 0px 15px 1px var(--btn-font-selected);
+}
+
+.btn-projects-card:active {
+    box-shadow: 0px 0px 20px 10px var(--btn-font-selected);
 }
 
 /*-------------------------------------------------------------*/
 
 #img_card_donut{
-    background: url(../Images/Carousel_Donut.png);
+    background: url(../Images/carousel_donut.png);
     background-size:cover;
 }
 

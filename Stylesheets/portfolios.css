@@ -1,3 +1,8 @@
+:root{
+    --light-blue: #a5c5e6;
+    --strong-blue: #326598;
+}
+
 main {
     flex-direction: row;
     justify-content: center;
@@ -13,7 +18,7 @@ main {
 .content {
     position: relative;
     transition: 2.25s;
-    background: lightblue;
+    background: var(--strong-blue);
     background-size: cover;
     background-repeat: no-repeat;
     width: 90%;
@@ -25,8 +30,8 @@ main {
     transform: rotateY(0.5turn);
 }
 
-.front,
-.back {
+.front-card-portfolio,
+.back-card-portfolio {
     position: absolute;
     inset: 0;
     padding: 2em;
@@ -34,22 +39,24 @@ main {
     backface-visibility: hidden;
 }
 
-.title {
+.title-card-portfolio {
+    color: var(--light-blue);
     transform: translateZ(2.5em);
-    font-size: 2rem;
+    font-size: 40px;
 }
 
-.back {
+.back-card-portfolio {
     transform: rotateY(0.5turn);
-    background-color: red;
+    background-color: var(--strong-blue);
 }
 
-.description {
+.description-card-portfolio {
+    color: var(--light-blue);
     transform: translateZ(5em);
 }
 
 .content,
-.back{
+.back-card-portfolio{
     border-radius: 0.5em;
 }
 
