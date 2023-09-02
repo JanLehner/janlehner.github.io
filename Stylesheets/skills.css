@@ -74,6 +74,97 @@ main {
     margin: 2px;
 }
 
+/*---------------------------------------------------------------------------------*/
+
+.langBlock-icon-div,
+.toolBlock-icon-div{
+    opacity: 0;
+    height: 90%;
+    width: 90%;
+    background-size:contain; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+#langBlock-img-1{
+    background-image: url(../Images/skills_icons/lang_block/icon_csharp.png);
+}
+
+#langBlock-img-2{
+    background-image: url(../Images/skills_icons/lang_block/icon_fsharp.png);
+}
+
+#langBlock-img-3{
+    background-image: url(../Images/skills_icons/lang_block/icon_bpmn.svg);
+}
+
+#langBlock-img-4{
+    background-image: url(../Images/skills_icons/lang_block/icon_js.png);
+}
+
+#langBlock-img-5{
+    background-image: url(../Images/skills_icons/lang_block/icon_html.png);
+}
+
+#langBlock-img-6{
+    background-image: url(../Images/skills_icons/lang_block/icon_css.png);
+}
+
+#langBlock-img-7{
+    background-image: url(../Images/skills_icons/lang_block/icon_mongodb.svg);
+}
+
+#langBlock-img-8{
+    background-image: url(../Images/skills_icons/lang_block/icon_sqlserver.svg);
+}
+
+#langBlock-img-9{
+    background-image: url(../Images/skills_icons/lang_block/icon_uml.png);
+}
+
+/*---------------------------------------------------------------------------------*/
+
+#toolBlock-img-1{
+    background-image: url(../Images/skills_icons/tool_block/icon_aws.png);
+}
+
+#toolBlock-img-2{
+    background-image: url(../Images/skills_icons/tool_block/icon_docker.png);
+}
+
+#toolBlock-img-3{
+    background-image: url(../Images/skills_icons/tool_block/icon_postman.png);
+}
+
+#toolBlock-img-4{
+    background-image: url(../Images/skills_icons/tool_block/icon_dotnet.png);
+}
+
+#toolBlock-img-5{
+    background-image: url(../Images/skills_icons/tool_block/icon_powershell.png);
+}
+
+#toolBlock-img-6{
+    background-image: url(../Images/skills_icons/tool_block/icon_git.png);
+}
+
+#toolBlock-img-7{
+    background-image: url(../Images/skills_icons/tool_block/icon_blender.png);
+}
+
+#toolBlock-img-8{
+    background-image: url(../Images/skills_icons/tool_block/icon_seleniumide.png);
+}
+
+#toolBlock-img-9{
+    background-image: url(../Images/skills_icons/tool_block/icon_xd.png);
+}
+
+/*---------------------------------------------------------------------------------*/
+
+
 @media screen and (max-width: 525px) {
     .block-div {
         height: 180px;
