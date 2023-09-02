@@ -59,7 +59,7 @@ nav {
 
 main {
     grid-area: main;
-    background-image: url(../Images/Background_Main.png);
+    background-image: url(../Images/background_main.png);
 }
 
 footer {

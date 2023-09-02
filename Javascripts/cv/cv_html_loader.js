@@ -15,7 +15,7 @@ export function cvHtmlLoad() {
         Error facere, ducimus illo eius et praesentium facilis laboriosam natus doloremque eum
         necessitatibus corporis minima rerum ad tempore numquam sed saepe distinctio sit iusto, amet ut vero
         ipsum. Illo.</p>
-    <img class="aboutMe-img" src="./Images/aboutMe_picture.jpg" alt="picture of me">
+    <img class="aboutMe-img" src="./Images/about_me_picture.jpg" alt="picture of me">
 </div>
 
 <div class="flexbox" id="timelineContainer">
