@@ -114,7 +114,7 @@ export function cvHtmlLoad() {
             <p class="timelineTitle titleRight agency">April 2023 | Selbständige Reparatur meines Laptops</p>
             <p class="timelineText textRight twCen">Nachdem die SDD meines Laptops den Geist aufgegeben hatte, wurde mir
                 vom Hersteller eine neue zugeschickt. Dadurch konnte ich das Laufwerk selbst auswechseln und so meine
-                Hemmung einen Laptop zu öffnen überwinden.</p>
+                Hemmung, einen Laptop zu öffnen, überwinden.</p>
         </div>
     </div>
     <div class="flexbox timelineRow-Line">
@@ -127,7 +127,7 @@ export function cvHtmlLoad() {
             <p class="timelineTitle titleLeft agency">August 2021 | Eintritt in die Informatikmittelschule</p>
             <p class="timelineText textLeft twCen">Einer der bisher wichtigsten Momente in meiner schulischen Laufbahn.
                 Bis im Sommer 2024 werde ich die Schule besuchen und schon jetzt schaue ich mit einem Lächeln
-                zurück. Ich habe nicht nur meine Leidenschaft für die Informatik entwickelt, sondern auch viele andere
+                zurück. Ich habe nicht nur meine Leidenschaft für die Informatik weiterentwickelt, sondern auch viele andere
                 schöne Momente gesammelt.
             </p>
         </div>
@@ -180,8 +180,8 @@ export function cvHtmlLoad() {
             </svg></div>
         <div class="flexbox timelineBlock content-block-right">
             <p class="timelineTitle titleRight agency">Ende 2020 | Bau meines eigenen Computers</p>
-            <p class="timelineText textRight twCen">Nach viel Planung und einigen Überredungsversuchen gegenüber meine Eltern, hatte ich alles
-                zusammen und konnte so meinen ersten eigenen Computer zusammen bauen 🛠.</p>
+            <p class="timelineText textRight twCen">Nach viel Planung und einigen Überredungsversuchen gegenüber meinen Eltern hatte ich alles
+                zusammen und konnte so meinen ersten eigenen Computer zusammenbauen 🛠.</p>
         </div>
     </div>
     <div class="flexbox timelineRow-Line">
@@ -192,8 +192,8 @@ export function cvHtmlLoad() {
     <div class="hiddenFadeFL flexbox timelineRow-Content-left">
         <div class="flexbox timelineBlock content-block-left">
             <p class="timelineTitle titleLeft agency">9. März 2020 | Schnupperlehre als Informatiker</p>
-            <p class="timelineText textLeft twCen">An diesem Tag hatte ich die Möglichkeit eine Schnupperlehre beim
-                Informatik Service Center ISC-EJPD zu absolvieren und so einen Einstieg in die Informatik zu erlangen.
+            <p class="timelineText textLeft twCen">An diesem Tag hatte ich die Möglichkeit, eine Schnupperlehre beim
+                Informatik Service Center ISC-EJPD zu absolvieren und so einen Einstieg in das Berufsleben eines Informatikers zu erlangen.
                 Dieses Ereignis war für mich ein wichtiger Wegweiser in Richtung Informatikmittelschule.
             </p>
         </div>

@@ -26,7 +26,7 @@ export function portfoliosHtmlLoad(){
         </div>
         <div class="back-card-portfolio flexbox">
             <p class="twCen description-card-portfolio">
-                Das Ziel dieses Portfolioeintrags ist es zu zeigen, wie man mithilfe von OpenStego & OpenSSL eine Datei
+                Das Ziel dieses Portfolioeintrags ist es, zu zeigen, wie man mithilfe von OpenStego & OpenSSL eine Datei
                 verschlüsseln, verstecken und anschliessend unbemerkt verschicken kann.
             </p>
         </div>
@@ -54,8 +54,8 @@ export function portfoliosHtmlLoad(){
         <div class="back-card-portfolio flexbox">
             <p class="twCen description-card-portfolio">
                 Im Modul 187 haben wir uns mit dem eigenen System befasst. Eines der Themen, die wir dabei behandelt
-                haben, ist der Stromverbrauch des eigenen Systems. Das Ziel dieses Portfolios ist es zu wissen, wie man
-                den ungefähren Stromverbrauch seines Gerätes ausrechnen kann, was die Kosten davon sind und ob Mining mit
+                haben, ist der Stromverbrauch des eigenen Systems. Das Ziel dieses Portfolios ist es, zu wissen, wie man
+                den ungefähren Stromverbrauch seines Gerätes ausrechnen kann, was die Kosten davon sind und ob sich Mining mit
                 dem eigenen System lohnt.
             </p>
         </div>
@@ -82,7 +82,7 @@ export function portfoliosHtmlLoad(){
         <div class="back-card-portfolio flexbox">
             <p class="twCen description-card-portfolio">
                 Dieses Portfolio bezieht sich auf die Leistungsbeurteilung des Moduls 346, bei der man ein kleines
-                Cloud-Projekt planen und umsetzen muss. Als Aufgabenstellung erhielten wir den Auftrag, für die fiktive
+                Cloud-Projekt planen und umsetzen musste. Als Aufgabenstellung erhielten wir den Auftrag, für die fiktive
                 Firma „MeeNerd“ das Content-Management-System Drupal in einer Cloud zu realisieren. Als Umgebung
                 verwendeten wir dabei das AWS Academy Learner Lab.
             </p>
@@ -110,7 +110,7 @@ export function portfoliosHtmlLoad(){
         <div class="back-card-portfolio flexbox">
             <p class="twCen description-card-portfolio">
                 Die Random Fact Webseite, ist eine einfache, aber dennoch lustige Webseite, bei der man sich entweder
-                auf Deutsch oder Englisch unnütze Fakten mit einem dazu passenden GIF ausgeben kann.
+                auf Deutsch oder Englisch unnütze Fakten mit einem dazu passenden GIF ausgeben lassen kann.
                 In diesem Portfolio wird die Realisierung der Seite beschrieben.
             </p>
         </div>
@@ -139,7 +139,7 @@ export function portfoliosHtmlLoad(){
             <p class="twCen description-card-portfolio">
                 Zeitfinder ist eine Webseite, welche ich erstellt habe, bei der man eine Ortschaft eingeben kann und
                 über eine API die aktuelle Zeit dieser ausgegeben wird. Je nachdem, was für eine Uhrzeit zurückgegeben
-                wird, verändert die Webseite passend das Hintergrundbild.
+                wird, verändert die Webseite passend dazu das Hintergrundbild.
                 In diesem Portfolio wird die Realisierung der Seite beschrieben.
             </p>
         </div>
@@ -166,7 +166,7 @@ export function portfoliosHtmlLoad(){
         </div>
         <div class="back-card-portfolio flexbox">
             <p class="twCen description-card-portfolio">
-                Das Ziel dieses Portfolios ist es anhand eines Beispiels zu wissen, wie man Daten charakterisiert,
+                Das Ziel dieses Portfolios ist es, anhand eines Beispiels zu wissen, wie man Daten charakterisiert,
                 aufbereitet und mit Microsoft Excel darstellen kann.
             </p>
         </div>

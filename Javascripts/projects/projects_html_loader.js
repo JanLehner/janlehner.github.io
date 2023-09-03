@@ -29,8 +29,8 @@ export function projectsHtmlLoad() {
                 <p class="agency projects-card-title">Blender Donut</p>
                 <p class="twCen projects-card-text">Als ich meinen Computer frisch gebaut hatte, wollte ich alles
                     testen, was ich damit machen kann. Eines Abends stiess ich daher auf Blender. Ohne etwas über das
-                    Programm oder 3D-Modellierung zu wissen entschied ich mich ein Tutorial auf YouTube anzuschauen und
-                    das ganze selbst auszuprobieren. Zwei Tage später stand das Produkt und ich hätte mein erstes
+                    Programm oder 3D-Modellierung zu wissen entschied ich mich, ein Tutorial auf YouTube anzuschauen und
+                    das Ganze selbst auszuprobieren. Zwei Tage später stand das Produkt und ich hatte mein erstes
                     Projekt in Blender umgesetzt.
                 </p>
                 <div class="flexbox projects-card-inner-content-bottom">
@@ -50,7 +50,7 @@ export function projectsHtmlLoad() {
                 <p class="twCen projects-card-text">Zeitfinder ist eine Webseite, welche ich erstellt habe, bei der man
                     eine Ortschaft eingeben kann und über eine API die
                     aktuelle Zeit dieser ausgegeben wird. Je nachdem, was für eine Uhrzeit zurückgegeben wird, verändert
-                    die Webseite passend das Hintergrundbild.</p>
+                    die Webseite passend dazu das Hintergrundbild.</p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://lominotimefinder.netlify.app/"
                         target="_blank">Webseite</a>
@@ -65,8 +65,8 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Computerbau</p>
-                <p class="twCen projects-card-text">Nach viel Planung und einigen Überredungsversuchen gegenüber meine Eltern, hatte ich alles
-                    zusammen und konnte so meinen ersten eigenen Computer zusammen bauen 🛠. Durch diesen konnte ich
+                <p class="twCen projects-card-text">Nach viel Planung und einigen Überredungsversuchen gegenüber meinen Eltern hatte ich alles
+                zusammen und konnte so meinen ersten eigenen Computer zusammenbauen 🛠. Durch diesen konnte ich
                     mich an verschiedenen Programmen ausüben (z.B. Blender), wodurch mein Interesse für Informatik stieg.</p>
                 <div class="flexbox projects-card-inner-content-bottom"></div>
             </div>
@@ -79,10 +79,10 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Random Fact</p>
-                <p class="twCen projects-card-text">Die Random Fact Webseite, ist eine einfache, aber dennoch lustige
+                <p class="twCen projects-card-text">Die Random Fact Webseite ist eine einfache, aber dennoch lustige
                     Webseite, bei der man sich entweder auf Deutsch oder Englisch unnütze Fakten mit einem dazu
                     passenden GIF
-                    ausgeben kann.</p>
+                    ausgeben lassen kann.</p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://lomionsrandomfacts.netlify.app/"
                         target="_blank">Webseite</a>
@@ -97,9 +97,9 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Laptop Reparatur</p>
-                <p class="twCen projects-card-text">Nachdem eines Tages die SSD meines Laptops den Geist aufgab
+                <p class="twCen projects-card-text">Nachdem eines Tages die SSD meines Laptops den Geist aufgab,
                     kontaktierte ich den Support des Herstellers.
-                    Irgendwie schaffte ich es den Mitarbeiter zu überreden mir eine neue Festplatte zu senden, statt das
+                    Irgendwie schaffte ich es, den Mitarbeiter zu überreden, mir eine neue Festplatte zu senden, statt dass
                     ich meinen Laptop einsenden muss und so begann die eigentliche Herausforderung der Reparatur.
                     Nachdem ich die Schale des Laptops entfernte und das Innenleben zum Vorschein kam, merkte ich, dass es
                     doch gar nicht so unterschiedlich zu Desktop Computer ist und so konnte ich die Festplatte ohne
