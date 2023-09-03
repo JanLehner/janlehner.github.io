@@ -30,8 +30,8 @@ export function projectsHtmlLoad() {
                 <p class="twCen projects-card-text">Als ich meinen Computer frisch gebaut hatte, wollte ich alles
                     testen, was ich damit machen kann. Eines Abends stiess ich daher auf Blender. Ohne etwas über das
                     Programm oder 3D-Modellierung zu wissen entschied ich mich ein Tutorial auf YouTube anzuschauen und
-                    das ganze selbst auszuprobieren. Zwei Tag später stand das Produkt und ich hätte mein erstes Projekt
-                    in Blender umgesetzt.
+                    das ganze selbst auszuprobieren. Zwei Tage später stand das Produkt und ich hätte mein erstes
+                    Projekt in Blender umgesetzt.
                 </p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://photos.app.goo.gl/Aiwfu6HDhAG4syoT8"
@@ -65,12 +65,10 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Computerbau</p>
-                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                    error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
-                    similique dolores mollitia, dolorum velit?</p>
-                <div class="flexbox projects-card-inner-content-bottom">
-                    <a class="agency btn-projects-card" href="#" target="_blank">Bilder</a>
-                </div>
+                <p class="twCen projects-card-text">Nach viel Planung und einigen Überredungsversuche hatte ich alles
+                    zusammen und konnte so meinen ersten eigenen Computer zusammen bauen 🛠. Durch diesen konnte ich
+                    mich an verschiedenen Programmen ausüben (z.B. Blender), wodurch mein Interesse für Informatik stieg.</p>
+                <div class="flexbox projects-card-inner-content-bottom"></div>
             </div>
         </div>
         <div class="flexbox projects-card-middle-div-right">
@@ -84,7 +82,7 @@ export function projectsHtmlLoad() {
                 <p class="twCen projects-card-text">Die Random Fact Webseite, ist eine einfache, aber dennoch lustige
                     Webseite, bei der man sich entweder auf Deutsch oder Englisch unnütze Fakten mit einem dazu
                     passenden GIF
-                    ausgeben kann. </p>
+                    ausgeben kann.</p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://lomionsrandomfacts.netlify.app/"
                         target="_blank">Webseite</a>
@@ -99,9 +97,13 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Laptop Reperatur</p>
-                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                    error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
-                    similique dolores mollitia, dolorum velit?</p>
+                <p class="twCen projects-card-text">Nachdem eines Tages die SSD meines Laptops den Geist aufgab
+                    kontaktierte ich den Support des Herstellers.
+                    Irgendwie schaffte ich es den Mitarbeiter zu überreden mir eine neue Festplatte zu senden, statt das
+                    ich meinen Laptop einsenden muss und so begann die eigentliche Herausforderung der Reparatur.
+                    Nachdem ich die Schale des Laptops entfernte und das Innenleben zum Vorschein kam, merkte ich, dass es
+                    doch gar nicht so unterschiedlich zu Desktop Computer ist und so konnte ich die Festplatte ohne
+                    Zwischenfälle austauschen und meinen Laptop wieder zum Laufen bringen.</p>
                 <div class="flexbox projects-card-inner-content-bottom"></div>
             </div>
         </div>
@@ -113,10 +115,12 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Number converter</p>
-                <p class="twCen projects-card-text">Beim Number converter handelt es sich um eine Webseite, welche die Möglichkeit bietet, Ganzzahlen
+                <p class="twCen projects-card-text">Beim Number converter handelt es sich um eine Webseite, welche die
+                    Möglichkeit bietet, Ganzzahlen
                     zwischen dem Dezimal-, Binär- und Hexadezimalsystem hin und her zu konvertieren. Der Benutzer kann
                     über eine Dropdown-Liste wählen, was für ein Input er eingeben möchte. Hat er diesen eingegeben und
-                    per Knopfdruck bestätigt, wird die Zahl clientseitig umgerechnet. Zusätzlich zu den drei genannten Systemen gibt es spasseshalber ein "Strichsystem". Dieses gibt
+                    per Knopfdruck bestätigt, wird die Zahl clientseitig umgerechnet. Zusätzlich zu den drei genannten
+                    Systemen gibt es spasseshalber ein "Strichsystem". Dieses gibt
                     eingegebene Zahlen bis 1'000'000 mithilfe von Strichen aus.</p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://lominosnumberconverter.netlify.app/"

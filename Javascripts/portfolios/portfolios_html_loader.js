@@ -54,8 +54,8 @@ export function portfoliosHtmlLoad(){
         <div class="back-card-portfolio flexbox">
             <p class="twCen description-card-portfolio">
                 Im Modul 187 haben wir uns mit dem eigenen System befasst. Eines der Themen, die wir dabei behandelt
-                haben ist der Stromverbrauch des eigenen Systems. Das Ziel dieses Portfolios ist es zu wissen, wie man
-                den ungefären Stromverbrauch seines Gerätes ausrechnen kann, was die Kosten davon sind und ob Mining mit
+                haben, ist der Stromverbrauch des eigenen Systems. Das Ziel dieses Portfolios ist es zu wissen, wie man
+                den ungefähren Stromverbrauch seines Gerätes ausrechnen kann, was die Kosten davon sind und ob Mining mit
                 dem eigenen System lohnt.
             </p>
         </div>

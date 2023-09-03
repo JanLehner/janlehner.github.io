@@ -1,6 +1,7 @@
 :root{
     --light-blue: #a5c5e6;
     --strong-blue: #326598;
+    --btn-font-selected: #38958C;
 }
 
 main {
@@ -28,12 +29,14 @@ main {
 .aboutMe-titel {
     margin: 20px;
     font-size: 85px;
+    color: var(--btn-font-selected);
 }
 
 .aboutMe-text {
     margin: 20px;
     width: 80%;
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .aboutMe-img {
@@ -102,12 +105,14 @@ main {
 }
 
 .timelineTitle {
-    font-size: 35px;
+    color: var(--btn-font-selected);
+    font-size: 40px;
     margin: 10px;
 }
 
 .timelineText {
-    font-size: 17px;
+    font-size: 24px;
+    line-height: 30px;
     margin: 10px;
 }
 
@@ -171,6 +176,11 @@ main {
         flex-direction: row-reverse;
     }
 
+    .svg{
+        width: 65px;
+        border-radius: 1.3em;
+    }
+
     .titleLeft,
     .textLeft {
         text-align: left;
@@ -184,7 +194,8 @@ main {
 
     .content-block-left,
     .content-block-right{
-        width: 80%;
+        width: 60%;
+        padding: 15px;
         padding-right: 5.4%;
     }
 
@@ -213,10 +224,10 @@ main {
     }
 
     .timelineTitle {
-        font-size: 25px;
+        font-size: 35px;
     }
     
     .timelineText {
-        font-size: 13px;
+        font-size: 19px;
     }
 }

@@ -97,11 +97,14 @@ main{
 
 .projects-card-text{
     margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .projects-card-title{
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    color: var(--btn-font-selected);
 }
 
 .btn-projects-card {
@@ -173,6 +176,14 @@ main{
         height: 50%;
     }
 
+    .projects-card-title{
+        font-size: 35px;
+    }
+
+    .projects-card-text{
+        font-size: 19px;
+    }
+
     .arrowBtn{
         width: 30%;
         height: 30%;
@@ -187,6 +198,12 @@ main{
 
     .arrowBtn{
         border-radius: 1.2em;
+    }
+
+    .projects-card-text{
+        margin-bottom: 40px;
+        font-size: 17px;
+        line-height: 25px;
     }
 }
 
@@ -257,6 +274,10 @@ main{
 }
 
 @media screen and (max-width: 450px) {    
+    main{
+        height: 120vh;
+    }
+    
     .projects-card-inner-div-right{
         height: 200px;
         width: 200px;
