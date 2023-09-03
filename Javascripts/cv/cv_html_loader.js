@@ -112,7 +112,7 @@ export function cvHtmlLoad() {
             </svg></div>
         <div class="flexbox timelineBlock content-block-right">
             <p class="timelineTitle titleRight agency">April 2023 | Selbständige Reparatur meines Laptops</p>
-            <p class="timelineText textRight twCen">Nachdem die SDD meines Laptops den Geist aufgegeben hat, wurde mir
+            <p class="timelineText textRight twCen">Nachdem die SDD meines Laptops den Geist aufgegeben hatte, wurde mir
                 vom Hersteller eine neue zugeschickt. Dadurch konnte ich das Laufwerk selbst auswechseln und so meine
                 Hemmung einen Laptop zu öffnen überwinden.</p>
         </div>
@@ -180,7 +180,7 @@ export function cvHtmlLoad() {
             </svg></div>
         <div class="flexbox timelineBlock content-block-right">
             <p class="timelineTitle titleRight agency">Ende 2020 | Bau meines eigenen Computers</p>
-            <p class="timelineText textRight twCen">Nach viel Planung und einigen Überredungsversuche hatte ich alles
+            <p class="timelineText textRight twCen">Nach viel Planung und einigen Überredungsversuchen gegenüber meine Eltern, hatte ich alles
                 zusammen und konnte so meinen ersten eigenen Computer zusammen bauen 🛠.</p>
         </div>
     </div>

@@ -65,7 +65,7 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Computerbau</p>
-                <p class="twCen projects-card-text">Nach viel Planung und einigen Überredungsversuche hatte ich alles
+                <p class="twCen projects-card-text">Nach viel Planung und einigen Überredungsversuchen gegenüber meine Eltern, hatte ich alles
                     zusammen und konnte so meinen ersten eigenen Computer zusammen bauen 🛠. Durch diesen konnte ich
                     mich an verschiedenen Programmen ausüben (z.B. Blender), wodurch mein Interesse für Informatik stieg.</p>
                 <div class="flexbox projects-card-inner-content-bottom"></div>
@@ -96,7 +96,7 @@ export function projectsHtmlLoad() {
     <div class="flexbox projects-card card-invisible" id="project-card-5">
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
-                <p class="agency projects-card-title">Laptop Reperatur</p>
+                <p class="agency projects-card-title">Laptop Reparatur</p>
                 <p class="twCen projects-card-text">Nachdem eines Tages die SSD meines Laptops den Geist aufgab
                     kontaktierte ich den Support des Herstellers.
                     Irgendwie schaffte ich es den Mitarbeiter zu überreden mir eine neue Festplatte zu senden, statt das
