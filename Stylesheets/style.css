@@ -362,4 +362,9 @@ footer {
             'footer';
         height: 100%;
     }
+
+    #logoDiv {
+        width: 200px;
+        padding-left: 0;
+    }
 }

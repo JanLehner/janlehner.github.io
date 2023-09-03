@@ -1,11 +1,11 @@
 const main = document.querySelector('main');
 const styleDiv = document.getElementById('stylesheetContainer');
 
-export function projectsHtmlLoad(){
+export function projectsHtmlLoad() {
     styleDiv.innerHTML = `<link rel="stylesheet" href="./Stylesheets/projects.css">`;
     main.innerHTML = `<div class="flexbox projects-div-arrow-left">
-    <a id="projects-btn-left" class="projects-btn-arrow"><svg class="svg arrowBtn" viewBox="0 0 24 24"
-            fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a id="projects-btn-left" class="projects-btn-arrow"><svg class="svg arrowBtn" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
             <g id="SVGRepo_iconCarrier">
@@ -15,10 +15,9 @@ export function projectsHtmlLoad(){
                 <path
                     d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z"
                     stroke="#a5c5e6" stroke-width="2"></path>
-                <path d="M8 12L16 12" stroke="#a5c5e6" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-                <path
-                    d="M11 9L8.08704 11.913V11.913C8.03897 11.961 8.03897 12.039 8.08704 12.087V12.087L11 15"
+                <path d="M8 12L16 12" stroke="#a5c5e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M11 9L8.08704 11.913V11.913C8.03897 11.961 8.03897 12.039 8.08704 12.087V12.087L11 15"
                     stroke="#a5c5e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </g>
         </svg></a>
@@ -27,20 +26,16 @@ export function projectsHtmlLoad(){
     <div class="flexbox projects-card card-center" id="project-card-1">
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
-                <p class="agency projects-card-title">Cooler Titel</p>
-                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Vitae voluptatum
-                    at atque officia
-                    omnis voluptates necessitatibus quis, ipsa repudiandae id magni earum, asperiores
-                    praesentium unde error dolorum laborum assumenda repellendus eum nulla iure corporis
-                    quas
-                    reprehenderit. Commodi, fuga maiores. Ex ducimus quo facilis? Ipsam similique minus
-                    aperiam?
-                    Porro, ullam adipisci.
+                <p class="agency projects-card-title">Blender Donut</p>
+                <p class="twCen projects-card-text">Als ich meinen Computer frisch gebaut hatte, wollte ich alles
+                    testen, was ich damit machen kann. Eines Abends stiess ich daher auf Blender. Ohne etwas über das
+                    Programm oder 3D-Modellierung zu wissen entschied ich mich ein Tutorial auf YouTube anzuschauen und
+                    das ganze selbst auszuprobieren. Zwei Tag später stand das Produkt und ich hätte mein erstes Projekt
+                    in Blender umgesetzt.
                 </p>
                 <div class="flexbox projects-card-inner-content-bottom">
-                    <a class="agency btn-projects-card" href="#">Test</a>
-                    <a class="agency btn-projects-card" href="#">Test</a>
+                    <a class="agency btn-projects-card" href="https://photos.app.goo.gl/Aiwfu6HDhAG4syoT8"
+                        target="_blank">Bilder</a>
                 </div>
             </div>
         </div>
@@ -48,10 +43,79 @@ export function projectsHtmlLoad(){
             <div id="img_card_donut" class="projects-card-inner-div-right"></div>
         </div>
     </div>
-    <div class="flexbox projects-card card-right" id="project-card-2">2</div>
-    <div class="flexbox projects-card card-invisible" id="project-card-3">3</div>
-    <div class="flexbox projects-card card-invisible" id="project-card-4">4</div>
-    <div class="flexbox projects-card card-invisible" id="project-card-5">5</div>
+    <div class="flexbox projects-card card-right" id="project-card-2">
+        <div class="flexbox projects-card-middle-div-left">
+            <div class="flexbox projects-card-inner-div-left">
+                <p class="agency projects-card-title">Zeitfinder</p>
+                <p class="twCen projects-card-text">Im Projekt 1305, welches ein Projekt im Lernatelier des IMS war,
+                    habe ich eine Webseite erstellt, bei der man eine Ortschaft eingeben kann und über eine API die
+                    aktuelle Zeit dieser ausgegeben wird. Je nachdem, was für eine Uhrzeit zurückgegeben wird, verändert
+                    die Webseite passend das Hintergrundbild.</p>
+                <div class="flexbox projects-card-inner-content-bottom">
+                    <a class="agency btn-projects-card" href="https://lominotimefinder.netlify.app/"
+                        target="_blank">Webseite</a>
+                    <a class="agency btn-projects-card"
+                        href="https://portfolio.bbbaden.ch/view/view.php?t=42d81adab9da5dc63b68"
+                        target="_blank">Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="flexbox projects-card-middle-div-right">
+            <div id="img_card_timefinder" class="projects-card-inner-div-right"></div>
+        </div>
+    </div>
+    <div class="flexbox projects-card card-invisible" id="project-card-3">
+        <div class="flexbox projects-card-middle-div-left">
+            <div class="flexbox projects-card-inner-div-left">
+                <p class="agency projects-card-title">Computerbau</p>
+                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
+                    similique dolores mollitia, dolorum velit?</p>
+                <div class="flexbox projects-card-inner-content-bottom">
+                    <a class="agency btn-projects-card" href="#" target="_blank">Bilder</a>
+                </div>
+            </div>
+        </div>
+        <div class="flexbox projects-card-middle-div-right">
+            <div id="img_card_computerbuild" class="projects-card-inner-div-right"></div>
+        </div>
+    </div>
+    <div class="flexbox projects-card card-invisible" id="project-card-4">
+        <div class="flexbox projects-card-middle-div-left">
+            <div class="flexbox projects-card-inner-div-left">
+                <p class="agency projects-card-title">Random Fact</p>
+                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
+                    similique dolores mollitia, dolorum velit?</p>
+                <div class="flexbox projects-card-inner-content-bottom">
+                    <a class="agency btn-projects-card" href="https://lomionsrandomfacts.netlify.app/"
+                        target="_blank">Webseite</a>
+                    <a class="agency btn-projects-card"
+                        href="https://portfolio.bbbaden.ch/view/view.php?t=6a3f0bb47ef22436ee0e"
+                        target="_blank">Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="flexbox projects-card-middle-div-right">
+            <div id="img_card_randomfact" class="projects-card-inner-div-right"></div>
+        </div>
+    </div>
+    <div class="flexbox projects-card card-invisible" id="project-card-5">
+        <div class="flexbox projects-card-middle-div-left">
+            <div class="flexbox projects-card-inner-div-left">
+                <p class="agency projects-card-title">Laptop Reperatur</p>
+                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
+                    similique dolores mollitia, dolorum velit?</p>
+                <div class="flexbox projects-card-inner-content-bottom">
+                    <a class="agency btn-projects-card" href="#" target="_blank">Bilder</a>
+                </div>
+            </div>
+        </div>
+        <div class="flexbox projects-card-middle-div-right">
+            <div id="img_card_computerbuild" class="projects-card-inner-div-right"></div>
+        </div>
+    </div>
     <div class="flexbox projects-card card-left" id="project-card-6">6</div>
 </div>
 <div class="flexbox projects-div-arrow-right">
@@ -66,8 +130,8 @@ export function projectsHtmlLoad(){
                 <path
                     d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z"
                     stroke="#a5c5e6" stroke-width="2"></path>
-                <path d="M16 12L8 12" stroke="#a5c5e6" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
+                <path d="M16 12L8 12" stroke="#a5c5e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                </path>
                 <path d="M13 15L15.913 12.087V12.087C15.961 12.039 15.961 11.961 15.913 11.913V11.913L13 9"
                     stroke="#a5c5e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </g>

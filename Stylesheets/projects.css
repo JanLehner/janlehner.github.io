@@ -101,6 +101,7 @@ main{
 
 .projects-card-title{
     text-align: center;
+    font-size: 35px;
 }
 
 .btn-projects-card {
@@ -129,7 +130,27 @@ main{
 /*-------------------------------------------------------------*/
 
 #img_card_donut{
-    background: url(../Images/carousel_donut.png);
+    background: url(../Images/carousel_images/carousel_donut.png);
+    background-size:cover;
+}
+
+#img_card_timefinder{
+    background: url(../Images/carousel_images/carousel_timefinder.png);
+    background-size:cover;
+}
+
+#img_card_computerbuild{
+    background: url(../Images/carousel_images/carousel_computer.jpg);
+    background-size:cover;
+}
+
+#img_card_randomfact{
+    background: url(../Images/carousel_images/carousel_randomfact.png);
+    background-size:cover;
+}
+
+#img_card_laptoprepair{
+    background: url(../Images/carousel_images/carousel_randomfact.png);
     background-size:cover;
 }
 
