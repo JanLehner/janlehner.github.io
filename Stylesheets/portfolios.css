@@ -79,6 +79,15 @@ main {
 @media screen and (max-width: 940px) {
     .card {
         width: 260px;
-        height: 190px;
+        height: 260px;
     }
+
+    .title-card-portfolio {
+        font-size: 25px;
+    }
+
+    .description-card-portfolio {
+        font-size: 15px;
+    }
+
 }
