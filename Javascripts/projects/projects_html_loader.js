@@ -47,16 +47,13 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Zeitfinder</p>
-                <p class="twCen projects-card-text">Im Projekt 1305, welches ein Projekt im Lernatelier des IMS war,
-                    habe ich eine Webseite erstellt, bei der man eine Ortschaft eingeben kann und über eine API die
+                <p class="twCen projects-card-text">Zeitfinder ist eine Webseite, welche ich erstellt habe, bei der man
+                    eine Ortschaft eingeben kann und über eine API die
                     aktuelle Zeit dieser ausgegeben wird. Je nachdem, was für eine Uhrzeit zurückgegeben wird, verändert
                     die Webseite passend das Hintergrundbild.</p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://lominotimefinder.netlify.app/"
                         target="_blank">Webseite</a>
-                    <a class="agency btn-projects-card"
-                        href="https://portfolio.bbbaden.ch/view/view.php?t=42d81adab9da5dc63b68"
-                        target="_blank">Portfolio</a>
                 </div>
             </div>
         </div>
@@ -84,15 +81,13 @@ export function projectsHtmlLoad() {
         <div class="flexbox projects-card-middle-div-left">
             <div class="flexbox projects-card-inner-div-left">
                 <p class="agency projects-card-title">Random Fact</p>
-                <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                    error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
-                    similique dolores mollitia, dolorum velit?</p>
+                <p class="twCen projects-card-text">Die Random Fact Webseite, ist eine einfache, aber dennoch lustige
+                    Webseite, bei der man sich entweder auf Deutsch oder Englisch unnütze Fakten mit einem dazu
+                    passenden GIF
+                    ausgeben kann. </p>
                 <div class="flexbox projects-card-inner-content-bottom">
                     <a class="agency btn-projects-card" href="https://lomionsrandomfacts.netlify.app/"
                         target="_blank">Webseite</a>
-                    <a class="agency btn-projects-card"
-                        href="https://portfolio.bbbaden.ch/view/view.php?t=6a3f0bb47ef22436ee0e"
-                        target="_blank">Portfolio</a>
                 </div>
             </div>
         </div>
@@ -107,16 +102,32 @@ export function projectsHtmlLoad() {
                 <p class="twCen projects-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
                     error architecto ullam reprehenderit culpa provident assumenda corrupti consequuntur unde ratione
                     similique dolores mollitia, dolorum velit?</p>
+                <div class="flexbox projects-card-inner-content-bottom"></div>
+            </div>
+        </div>
+        <div class="flexbox projects-card-middle-div-right">
+            <div id="img_card_laptoprepair" class="projects-card-inner-div-right"></div>
+        </div>
+    </div>
+    <div class="flexbox projects-card card-left" id="project-card-6">
+        <div class="flexbox projects-card-middle-div-left">
+            <div class="flexbox projects-card-inner-div-left">
+                <p class="agency projects-card-title">Number converter</p>
+                <p class="twCen projects-card-text">Beim Number converter handelt es sich um eine Webseite, welche die Möglichkeit bietet, Ganzzahlen
+                    zwischen dem Dezimal-, Binär- und Hexadezimalsystem hin und her zu konvertieren. Der Benutzer kann
+                    über eine Dropdown-Liste wählen, was für ein Input er eingeben möchte. Hat er diesen eingegeben und
+                    per Knopfdruck bestätigt, wird die Zahl clientseitig umgerechnet. Zusätzlich zu den drei genannten Systemen gibt es spasseshalber ein "Strichsystem". Dieses gibt
+                    eingegebene Zahlen bis 1'000'000 mithilfe von Strichen aus.</p>
                 <div class="flexbox projects-card-inner-content-bottom">
-                    <a class="agency btn-projects-card" href="#" target="_blank">Bilder</a>
+                    <a class="agency btn-projects-card" href="https://lominosnumberconverter.netlify.app/"
+                        target="_blank">Webseite</a>
                 </div>
             </div>
         </div>
         <div class="flexbox projects-card-middle-div-right">
-            <div id="img_card_computerbuild" class="projects-card-inner-div-right"></div>
+            <div id="img_card_numberconverter" class="projects-card-inner-div-right"></div>
         </div>
     </div>
-    <div class="flexbox projects-card card-left" id="project-card-6">6</div>
 </div>
 <div class="flexbox projects-div-arrow-right">
     <a id="projects-btn-right" class="projects-btn-arrow">

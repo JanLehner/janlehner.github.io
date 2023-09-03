@@ -2,8 +2,7 @@
     --light-blue: #a5c5e6;
     --strong-blue: #326598;
     --btn-font-selected: #38958C;
-     --dark-blue: #294156; 
-    /* --dark-blue: #466e91; */
+    --dark-blue: #294156;
 }
 
 main {
@@ -44,13 +43,15 @@ main {
 .block-btn {
     height: 120px;
     width: 120px;
-    background-color: var(--dark-blue); /*-------------------------------------------------------------*/
+    background-color: var(--dark-blue);
+    /*-------------------------------------------------------------*/
     overflow: visible;
 }
 
 .block-btn:hover {
     box-shadow: 0px 0px 15px 1px var(--light-blue);
-    background-color: var(--light-blue); /*-------------------------------------------------------------*/
+    background-color: var(--light-blue);
+    /*-------------------------------------------------------------*/
 }
 
 .btn-border-bottom-right {
@@ -80,98 +81,98 @@ main {
 /*---------------------------------------------------------------------------------*/
 
 .langBlock-icon-div,
-.toolBlock-icon-div{
+.toolBlock-icon-div {
     opacity: 0;
     height: 90%;
     width: 90%;
-    background-size:contain; 
-    background-repeat: no-repeat; 
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 
 /*---------------------------------------------------------------------------------*/
 
-#langBlock-img-1{
+#langBlock-img-1 {
     background-image: url(../Images/skills_icons/lang_block/icon_csharp.png);
 }
 
-#langBlock-img-2{
+#langBlock-img-2 {
     background-image: url(../Images/skills_icons/lang_block/icon_fsharp.png);
 }
 
-#langBlock-img-3{
+#langBlock-img-3 {
     background-image: url(../Images/skills_icons/lang_block/icon_bpmn.svg);
 }
 
-#langBlock-img-4{
+#langBlock-img-4 {
     background-image: url(../Images/skills_icons/lang_block/icon_js.png);
     height: 80%;
     width: 80%;
     border-radius: 0.75em;
 }
 
-#langBlock-img-5{
+#langBlock-img-5 {
     background-image: url(../Images/skills_icons/lang_block/icon_html.png);
 }
 
-#langBlock-img-6{
+#langBlock-img-6 {
     background-image: url(../Images/skills_icons/lang_block/icon_css.png);
 }
 
-#langBlock-img-7{
+#langBlock-img-7 {
     background-image: url(../Images/skills_icons/lang_block/icon_mongodb.svg);
 }
 
-#langBlock-img-8{
+#langBlock-img-8 {
     background-image: url(../Images/skills_icons/lang_block/icon_sqlserver.svg);
 }
 
-#langBlock-img-9{
+#langBlock-img-9 {
     background-image: url(../Images/skills_icons/lang_block/icon_uml.png);
 }
 
 /*---------------------------------------------------------------------------------*/
 
-#toolBlock-img-1{
+#toolBlock-img-1 {
     background-image: url(../Images/skills_icons/tool_block/icon_aws.png);
 }
 
-#toolBlock-img-2{
+#toolBlock-img-2 {
     background-image: url(../Images/skills_icons/tool_block/icon_docker.png);
 }
 
-#toolBlock-img-3{
+#toolBlock-img-3 {
     background-image: url(../Images/skills_icons/tool_block/icon_postman.png);
     height: 80%;
     width: 80%;
 }
 
-#toolBlock-img-4{
+#toolBlock-img-4 {
     background-image: url(../Images/skills_icons/tool_block/icon_dotnet.png);
     height: 80%;
     width: 80%;
 }
 
-#toolBlock-img-5{
+#toolBlock-img-5 {
     background-image: url(../Images/skills_icons/tool_block/icon_powershell.png);
 }
 
-#toolBlock-img-6{
+#toolBlock-img-6 {
     background-image: url(../Images/skills_icons/tool_block/icon_git.png);
 }
 
-#toolBlock-img-7{
+#toolBlock-img-7 {
     background-image: url(../Images/skills_icons/tool_block/icon_blender.png);
 }
 
-#toolBlock-img-8{
+#toolBlock-img-8 {
     background-image: url(../Images/skills_icons/tool_block/icon_seleniumide.jpg);
     height: 80%;
     width: 80%;
     border-radius: 0.75em;
 }
 
-#toolBlock-img-9{
+#toolBlock-img-9 {
     background-image: url(../Images/skills_icons/tool_block/icon_xd.png);
     height: 83%;
     width: 83%;
@@ -196,7 +197,7 @@ main {
         width: 56px;
     }
 
-    .blockDescription{
+    .blockDescription {
         font-size: 30px;
         top: 35%;
     }

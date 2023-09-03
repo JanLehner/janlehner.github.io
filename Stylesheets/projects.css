@@ -150,7 +150,12 @@ main{
 }
 
 #img_card_laptoprepair{
-    background: url(../Images/carousel_images/carousel_randomfact.png);
+    background: url(../Images/carousel_images/carousel_laptop.jpg);
+    background-size:cover;
+}
+
+#img_card_numberconverter{
+    background: url(../Images/carousel_images/carousel_numberconverter.png);
     background-size:cover;
 }
 
