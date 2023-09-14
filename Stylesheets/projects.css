@@ -8,7 +8,7 @@ main {
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
-    height: 110vh;
+    height: 130vh;
 }
 
 .svg {
@@ -85,6 +85,8 @@ main {
 
 .projects-card-inner-div-right {
     margin: 20px;
+    height: 40%;
+    width: 70%;
 }
 
 .projects-card-title,
@@ -165,16 +167,16 @@ main {
 
 /*-------------------------------------------------------------*/
 
-@media screen and (max-width: 1650px) {
+/* @media screen and (max-width: 1650px) {
     .projects-card-inner-div-right {
         width: 70%;
-        height: 60%;
+        height: 60%; 
     }
-}
+} */
 
 @media screen and (max-width: 1400px) {
     .projects-card-inner-div-right {
-        height: 50%;
+        height: 40%;
     }
 
     .projects-card-title {
@@ -194,7 +196,7 @@ main {
 
 @media screen and (max-width: 1200px) {
     .projects-card-inner-div-right {
-        height: 40%;
+        height: 30%;
     }
 
     .arrowBtn {
