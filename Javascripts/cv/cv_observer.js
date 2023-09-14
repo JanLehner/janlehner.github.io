@@ -20,11 +20,11 @@ export function cvObserve(){
     });
     
     const hiddenLines = document.querySelectorAll('.hiddenLine');
-    hiddenLines.forEach((el) => observerLines.observe(el));
+    hiddenLines.forEach((hiddenLine) => observerLines.observe(hiddenLine));
     
     const hiddenFadeFR = document.querySelectorAll('.hiddenFadeFR');
-    hiddenFadeFR.forEach((el) => observerFade.observe(el));
+    hiddenFadeFR.forEach((hiddenFadeFromRight) => observerFade.observe(hiddenFadeFromRight));
     
     const hiddenFadeFL = document.querySelectorAll('.hiddenFadeFL');
-    hiddenFadeFL.forEach((el) => observerFade.observe(el));
+    hiddenFadeFL.forEach((hiddenFadeFromLeft) => observerFade.observe(hiddenFadeFromLeft));
 }

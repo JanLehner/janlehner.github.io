@@ -50,10 +50,6 @@ main {
     font-size: 40px;
 }
 
-.front-card-portfolio{
-    background: url("https://image.flaticon.com/icons/svg/60/60993.svg") 0 0 / 20px 30px repeat;
-}
-
 .back-card-portfolio {
     transform: rotateY(0.5turn);
     background-color: var(--dark-blue);

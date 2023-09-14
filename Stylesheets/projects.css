@@ -1,10 +1,10 @@
-:root{
+:root {
     --light-blue: #a5c5e6;
     --strong-blue: #326598;
     --btn-font-selected: #38958C;
 }
 
-main{
+main {
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
@@ -17,18 +17,18 @@ main{
 }
 
 .projects-div-arrow-right,
-.projects-div-arrow-left{
+.projects-div-arrow-left {
     width: 15%;
     height: 100%;
 }
 
-.projects-container{
+.projects-container {
     width: 70%;
     height: 80%;
     position: relative;
 }
 
-.projects-card{
+.projects-card {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -38,56 +38,56 @@ main{
     border-radius: 0.5em;
 }
 
-.card-left{
-    transform: translateX(-200%); 
+.card-left {
+    transform: translateX(-200%);
     transition: all 1s;
 }
 
-.card-center{
+.card-center {
     transform: translateX(0);
     transition: all 1s;
 }
 
-.card-right{
-    transform: translateX(200%); 
+.card-right {
+    transform: translateX(200%);
     transition: all 1s;
 }
 
-.card-invisible{
+.card-invisible {
     opacity: 0;
     z-index: -5;
-} 
+}
 
-.arrowBtn{
+.arrowBtn {
     z-index: 2;
 }
 
 /*-------------------------------------------*/
 
 .projects-card-middle-div-right,
-.projects-card-middle-div-left{
+.projects-card-middle-div-left {
     height: 100%;
     width: 50%;
 }
 
 .projects-card-inner-div-right,
-.projects-card-inner-div-left{
+.projects-card-inner-div-left {
     height: 90%;
     width: 90%;
     border-radius: 0.5em;
 }
 
-.projects-card-inner-div-left{
+.projects-card-inner-div-left {
     flex-direction: column;
     justify-content: center;
 }
 
-.projects-card-inner-div-right{
+.projects-card-inner-div-right {
     margin: 20px;
 }
 
 .projects-card-title,
-.projects-card-text{
+.projects-card-text {
     margin: 20px;
     margin-top: 0;
     text-align: justify;
@@ -95,13 +95,13 @@ main{
     justify-content: center;
 }
 
-.projects-card-text{
+.projects-card-text {
     margin-bottom: 40px;
     font-size: 24px;
     line-height: 30px;
 }
 
-.projects-card-title{
+.projects-card-title {
     text-align: center;
     font-size: 40px;
     color: var(--btn-font-selected);
@@ -132,162 +132,158 @@ main{
 
 /*-------------------------------------------------------------*/
 
-#img_card_donut{
+#img_card_donut {
     background: url(../Images/carousel_images/carousel_donut.png);
-    background-size:cover;
+    background-size: cover;
 }
 
-#img_card_timefinder{
+#img_card_timefinder {
     background: url(../Images/carousel_images/carousel_timefinder.png);
-    background-size:cover;
+    background-size: cover;
 }
 
-#img_card_computerbuild{
+#img_card_computerbuild {
     background: url(../Images/carousel_images/carousel_computer.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
-#img_card_randomfact{
+#img_card_randomfact {
     background: url(../Images/carousel_images/carousel_randomfact.png);
-    background-size:cover;
+    background-size: cover;
 }
 
-#img_card_laptoprepair{
+#img_card_laptoprepair {
     background: url(../Images/carousel_images/carousel_laptop.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
-#img_card_numberconverter{
+#img_card_numberconverter {
     background: url(../Images/carousel_images/carousel_numberconverter.png);
-    background-size:cover;
+    background-size: cover;
 }
 
 /*-------------------------------------------------------------*/
 
-@media screen and (max-width: 1650px) {    
-    .projects-card-inner-div-right{
+@media screen and (max-width: 1650px) {
+    main {
+        height: 100vh;
+    }
+
+    .projects-card-inner-div-right {
         width: 70%;
         height: 60%;
     }
 }
 
-@media screen and (max-width: 1400px) {    
-    .projects-card-inner-div-right{
+@media screen and (max-width: 1400px) {
+    .projects-card-inner-div-right {
         height: 50%;
     }
 
-    .projects-card-title{
+    .projects-card-title {
         font-size: 35px;
     }
 
-    .projects-card-text{
+    .projects-card-text {
         font-size: 19px;
     }
 
-    .arrowBtn{
+    .arrowBtn {
         width: 30%;
         height: 30%;
         border-radius: 1.5em;
     }
 }
 
-@media screen and (max-width: 1200px) {    
-    .projects-card-inner-div-right{
+@media screen and (max-width: 1200px) {
+    .projects-card-inner-div-right {
         height: 40%;
     }
 
-    .arrowBtn{
+    .arrowBtn {
         border-radius: 1.2em;
     }
 
-    .projects-card-text{
+    .projects-card-text {
         margin-bottom: 40px;
         font-size: 17px;
         line-height: 25px;
     }
 }
 
-@media screen and (max-width: 925px) {    
-    main{
-        height: 100vh;
+@media screen and (max-width: 925px) {
+    main {
+        height: 150vh;
     }
 
-    .projects-card{
+    .projects-card {
         flex-direction: column;
         left: -4%;
     }
 
     .projects-card-middle-div-right,
-    .projects-card-middle-div-left{
+    .projects-card-middle-div-left {
         width: 100%;
         height: 100%;
     }
 
-    .projects-card-title{
+    .projects-card-title {
         margin-top: 20px;
     }
 
-    .projects-card-inner-div-right{
+    .projects-card-inner-div-right {
         width: 50%;
         height: 70%;
     }
 
     .projects-card-title,
-    .projects-card-text{
+    .projects-card-text {
         width: 300px;
     }
 
-    .btn-projects-card{
+    .btn-projects-card {
         height: 40px;
         width: 90px;
     }
 }
 
-@media screen and (max-width: 750px) {    
-    .projects-card{
+@media screen and (max-width: 750px) {
+    .projects-card {
         border: none;
     }
-    
+
     .projects-card-text,
-    .projects-card-title{
+    .projects-card-title {
         width: 250px;
     }
 
-    .projects-card-inner-div-right{
+    .projects-card-inner-div-right {
         width: 80%;
         height: 80%;
     }
 }
 
-@media screen and (max-width: 600px) {    
-    .projects-card-inner-div-right{
+@media screen and (max-width: 600px) {
+    .projects-card-inner-div-right {
         width: 90%;
         height: 80%;
     }
 }
 
-@media screen and (max-width: 500px) {    
-    .projects-card-inner-div-right{
+@media screen and (max-width: 500px) {
+    .projects-card-inner-div-right {
         height: 300px;
         width: 300px;
     }
 }
 
-@media screen and (max-width: 450px) {    
-    main{
-        height: 120vh;
-    }
-    
-    .projects-card-inner-div-right{
+@media screen and (max-width: 450px) {
+    .projects-card-inner-div-right {
         height: 200px;
         width: 200px;
     }
 
-    .projects-card{
+    .projects-card {
         left: -7.5%;
     }
 }
-
-
-
-
