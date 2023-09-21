@@ -167,13 +167,6 @@ main {
 
 /*-------------------------------------------------------------*/
 
-/* @media screen and (max-width: 1650px) {
-    .projects-card-inner-div-right {
-        width: 70%;
-        height: 60%; 
-    }
-} */
-
 @media screen and (max-width: 1400px) {
     .projects-card-inner-div-right {
         height: 40%;
